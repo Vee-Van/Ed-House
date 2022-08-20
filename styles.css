@@ -1,0 +1,19 @@
+#logo {
+    width: max(100px, 18vw);
+    background-color:antiquewhite;
+    aspect-ratio: auto;
+    padding: 0.4rem;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: beige;
+    display: flex;
+}
+
+nav > ul {
+    justify-content: space-evenly;
+    display: flex;
+}
+
