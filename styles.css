@@ -15,5 +15,25 @@ header {
 nav > ul {
     justify-content: space-evenly;
     display: flex;
+    list-style: none;
 }
 
+.showcase-area {
+    background-color: beige;
+    height: 650px;
+}
+
+#about {
+    background-color: blanchedalmond;
+    height: 650px;
+}
+
+#price {
+    background-color: antiquewhite;
+    height: 650px;
+}
+
+#contact {
+    background-color:aqua;
+    height: 650px;
+}
