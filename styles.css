@@ -15,12 +15,21 @@ header {
 nav > ul {
     justify-content: space-evenly;
     display: flex;
-    list-style: none;
+}
+
+nav > ul > li {
+    margin: 0.2rem;
+    padding: 0.2rem;
+    display: block;
 }
 
 .showcase-area {
     background-color: beige;
     height: 650px;
+}
+
+#online {
+    width: 90%;
 }
 
 #about {
