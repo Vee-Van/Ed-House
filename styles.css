@@ -47,9 +47,6 @@ header {
     color: #007F5F;
 }
 
-
-
-
-#online {
-    width: 50%;
+.showcase-area {
+    background-image: url(..\C:\Users\Пользователь\Desktop\showcase.jpeg);
 }
