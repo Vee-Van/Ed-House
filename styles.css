@@ -1,48 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'NotoSans', sans-serif;
+    scroll-behavior: smooth;
+}
+
 #logo {
-    width: max(100px, 18vw);
-    background-color:antiquewhite;
-    aspect-ratio: auto;
-    padding: 0.4rem;
+    width: 200px;
+}
+
+li {
+    font-weight: 500;
+    font-size: 16px;
+    color: #072AC8;
 }
 
 header {
-    width: 100%;
-    height: auto;
-    background-color: beige;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 150px;
+    border: 3px solid black;    
 }
 
-nav > ul {
-    justify-content: space-evenly;
-    display: flex;
+.navbar {
+    list-style: none;
 }
 
-nav > ul > li {
-    margin: 0.2rem;
-    padding: 0.2rem;
-    display: block;
+.navbar li {
+    display: inline-block;
+    padding: 0 20px;
+    margin: 0 20px;
+    font-weight: 600;
 }
 
-.showcase-area {
-    background-color: beige;
-    height: 650px;
+.navbar li a {
+    transform: all 0.5s ease 0s;
+    text-decoration: none;
+    color:#0077b6;
 }
+
+.navbar li a:hover {
+    color: #007F5F;
+}
+
+
+
 
 #online {
-    width: 90%;
-}
-
-#about {
-    background-color: blanchedalmond;
-    height: 650px;
-}
-
-#price {
-    background-color: antiquewhite;
-    height: 650px;
-}
-
-#contact {
-    background-color:aqua;
-    height: 650px;
+    width: 50%;
 }
