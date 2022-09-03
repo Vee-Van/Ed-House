@@ -63,20 +63,13 @@ header {
 .showcase-container {
     margin: 0 150px;
     padding: 300px 0;
-    color: #186ceb;
+    color: #0077b6;
     font-size: 30px;
-}
-
-#info {
-    background-color: aqua;
-    height: 300px;
 }
 
 #info > p {
     margin: 0 150px;
-    padding: 300px 0;
-    background-color: yellow;
+    padding: 0;
     color: #0077b6;
     font-size: 18px;
-    height: auto;
 }
