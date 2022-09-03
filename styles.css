@@ -6,6 +6,7 @@
     box-sizing: border-box;
     font-family: 'NotoSans', sans-serif;
     scroll-behavior: smooth;
+    border: 1px solid black
 }
 
 #logo {
@@ -72,4 +73,24 @@ header {
     padding: 0;
     color: #0077b6;
     font-size: 18px;
+}
+
+#contact {
+    margin: 0 150px;
+    display: flex;
+    padding: 0;
+    color:#0077b6;
+}
+
+#school-info > p {
+   padding: 6px 0;
+}
+
+#personal-info {
+    width: 300px;
+    display: block;
+}
+
+#map {
+   
 }
