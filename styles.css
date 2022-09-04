@@ -68,29 +68,11 @@ header {
     font-size: 30px;
 }
 
-#info > p {
+.contact-info {
     margin: 0 150px;
-    padding: 0;
-    color: #0077b6;
-    font-size: 18px;
+    background-color: rgb(184, 184, 184);
 }
 
-#contact {
-    margin: 0 150px;
-    display: flex;
-    padding: 0;
-    color:#0077b6;
-}
-
-#school-info > p {
-   padding: 6px 0;
-}
-
-#personal-info {
-    width: 300px;
-    display: block;
-}
-
-#map {
-   
+h2 {
+    text-align: center;
 }
